@@ -1,0 +1,34 @@
+{
+  "name": "webscr-cli",
+  "version": "1.0.0",
+  "description": "Simple tool to capture web screenshot and upload it to the file server",
+  "main": "index.js",
+  "scripts": {
+    "webscr": "node screenshot.js",
+    "webpdf": "node pdf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustHxnry/webscr-cli.git"
+  },
+  "keywords": [
+    "webscreenshot",
+    "cli",
+    "webshot"
+  ],
+  "author": "JustHxnry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JustHxnry/webscr-cli/issues"
+  },
+  "homepage": "https://github.com/JustHxnry/webscr-cli#readme",
+  "dependencies": {
+    "@justhxnry/randoms": "^1.0.1",
+    "axios": "^0.27.2",
+    "chalk": "^4.1.2",
+    "dashdash": "^2.0.0",
+    "form-data": "^4.0.0",
+    "puppeteer": "^18.0.5",
+    "readline": "^1.3.0"
+  }
+}
